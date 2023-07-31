@@ -1,0 +1,11 @@
+.custom-checkbox-square {
+  width: 20px;
+  height: 20px;
+}
+.custom-checkbox input:checked + div .custom-checkbox-square {
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+.custom-checkbox input:checked + div .custom-checkbox-square span {
+  opacity: 1;
+  visibility: visible;
+}
